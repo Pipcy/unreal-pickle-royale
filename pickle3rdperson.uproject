@@ -19,19 +19,8 @@
 			]
 		},
 		{
-			"Name": "VaRest",
-			"Enabled": true
-		},
-		{
 			"Name": "GameplayStateTree",
 			"Enabled": true
-<<<<<<< HEAD
-		},
-		{
-			"Name": "SERIALCOM",
-			"Enabled": true
-=======
->>>>>>> b40cd827e3a41d73710290120a835d4c81685cd0
 		}
 	]
 }
