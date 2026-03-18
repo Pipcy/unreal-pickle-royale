@@ -1,0 +1,107 @@
+* [33m57d5056[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mCamera[m[33m, [m[1;31morigin/Camera[m[33m)[m begin play seq, end play seq
+*   [33mc90c65f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m put out fire for match loop (#13)
+[32m|[m[33m\[m  
+[32m|[m * [33m93d7a7b[m[33m ([m[1;31morigin/PVE[m[33m)[m put out fire for match loop
+[32m|[m[32m/[m  
+*   [33m7d86768[m animation basic integration Quinn (locomotion + swing) (#12)
+[34m|[m[35m\[m  
+[34m|[m * [33ma3d555e[m[33m ([m[1;31morigin/game-loop[m[33m)[m animation basic integration Quinn (locomotion + swing)
+[34m|[m[34m/[m  
+* [33m33264e9[m add serve charging
+*   [33md05f969[m Add Mixamo animations (#11)
+[36m|[m[1;31m\[m  
+[36m|[m * [33ma2a0f5c[m[33m ([m[1;31morigin/character[m[33m)[m Add Mixamo animations
+[36m|[m[36m/[m  
+[36m|[m *[1;34m-[m[1;34m.[m   [33m09bf1f7[m[33m ([m[1;35mrefs/stash[m[33m)[m On main: temp before switching to Camera
+[36m|[m [1;32m|[m[1;33m\[m [1;34m\[m  
+[36m|[m [1;32m|[m [1;33m|[m * [33mcc1d8e2[m untracked files on main: 046f6a5 Opening game sequence, End game sequence
+[36m|[m [1;32m|[m * [33m93afcaf[m index on main: 046f6a5 Opening game sequence, End game sequence
+[36m|[m [1;32m|[m[1;32m/[m  
+[36m|[m * [33m046f6a5[m[33m ([m[1;32mmain[m[33m)[m Opening game sequence, End game sequence
+[36m|[m [1;34m|[m * [33m80d9c76[m[33m ([m[1;31morigin/UI[m[33m)[m pop up text + starting of character selection
+[36m|[m [1;34m|[m[36m/[m  
+[36m|[m[36m/[m[1;34m|[m   
+* [1;34m|[m   [33m059306f[m add player swing hit limit + bounce audio (#10)
+[1;34m|[m[31m\[m [1;34m\[m  
+[1;34m|[m [31m|[m[1;34m/[m  
+[1;34m|[m[1;34m/[m[31m|[m   
+[1;34m|[m * [33mab61484[m add player swing hit limit + bounce audio
+[1;34m|[m[1;34m/[m  
+* [33m4025eb8[m set up practice level
+* [33ma8d414b[m score update integrate with matchloop
+*   [33m305ef75[m UI (#9)
+[32m|[m[33m\[m  
+[32m|[m [33m|[m * [33m80f1b9f[m[33m ([m[1;31morigin/pose-tracking[m[33m)[m (elena) start swing detection with position
+[32m|[m [33m|[m * [33m268680f[m (elena) continue imu debug
+[32m|[m [33m|[m * [33m01a0b6c[m (elena) add calibration button and continue imu debug
+[32m|[m [33m|[m * [33m57a066c[m (elena) smooth & debug imu rotation
+[32m|[m [33m|[m * [33m158bd2f[m (elena) function reorg and 3-axis debug
+[32m|[m [33m|[m * [33me8195ad[m (elena) x and z axis rotation
+[32m|[m [33m|[m * [33m468198c[m integrate position+rotation in BP_MotionController
+[32m|[m [33m|[m * [33m66cc464[m continue imu quat analysis
+[32m|[m [33m|[m * [33m014e0e6[m [wip] integrate pose tracking & imu
+[32m|[m [33m|[m * [33m2f2fafc[m implement hand tracking with test actor
+[32m|[m [33m|[m[33m/[m  
+[32m|[m *   [33m1f5c2ce[m Merge remote-tracking branch 'origin/main' into UI
+[32m|[m [35m|[m[32m\[m  
+[32m|[m [35m|[m[32m/[m  
+[32m|[m[32m/[m[35m|[m   
+* [35m|[m   [33m336e6f0[m player vs. AI gamemode Basic (first to 3) match loop complete (#8)
+[1;31m|[m[1;32m\[m [35m\[m  
+[1;31m|[m * [35m\[m   [33m26129eb[m bring main's new changes to PVE
+[1;31m|[m [1;33m|[m[1;31m\[m [35m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [35m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [35m|[m   
+* [1;33m|[m [35m|[m   [33m5d9ab48[m merge Sensor (swing detection) to main (#7)
+[1;35m|[m[1;36m\[m [1;33m\[m [35m\[m  
+[1;35m|[m * [1;33m|[m [35m|[m [33m408f052[m[33m ([m[1;31morigin/sensor[m[33m)[m add swing cooldown and finetune parameters
+[1;35m|[m * [1;33m|[m [35m|[m [33m079eae0[m add swing detection from IMU acceleration
+[1;35m|[m[1;35m/[m [1;33m/[m [35m/[m  
+* [1;33m|[m [35m|[m [33m42fc643[m minor fix
+[1;36m|[m * [35m|[m [33medd3174[m gamemodeBasic(FirstTo3) logic done with minor bug
+[1;36m|[m * [35m|[m [33m59396a8[m player and opponent serve done
+[1;36m|[m * [35m|[m   [33me7c00a2[m Resolve merge conflicts by keeping local PVE changes
+[1;36m|[m [31m|[m[32m\[m [35m\[m  
+[1;36m|[m [31m|[m * [35m|[m [33mca86b00[m stage 5 volleyshot plus add paddle to player and opponent BP
+[1;36m|[m * [32m|[m [35m|[m [33m7c16266[m optimize AI, finish back and forth
+[1;36m|[m * [32m|[m [35m|[m [33m200ccf0[m stage 5 volleyshot plus add paddle to player and opponent BP
+[1;36m|[m[1;36m/[m [32m/[m [35m/[m  
+* [32m|[m [35m|[m [33mae54017[m remove serialcom nonsense in uoproject
+[32m|[m [32m|[m * [33m3541093[m Score popping player only kinda
+[32m|[m [32m|[m * [33m58c96db[m Started on Set Scoring + Character display
+[32m|[m [32m|[m * [33m6059fcc[m Added fonts
+[32m|[m [32m|[m * [33me43e5f5[m added fake gameplay w buttons, starting of score points UI
+[32m|[m [32m|[m[32m/[m  
+[32m|[m[32m/[m[32m|[m   
+* [32m|[m [33m6f43a0f[m Revert unintended SerialCOM plugin changes
+* [32m|[m [33m616e6e7[m Added logic for buttons -> game selection and settings in main menu
+* [32m|[m [33m31fce3c[m Barebone menu + game settings layout -- working on logic next
+* [32m|[m   [33m7f6e332[m Merge branch 'main' of https://github.com/Pipcy/unreal-pickle-royale
+[32m|[m[34m\[m [32m\[m  
+[32m|[m [34m|[m[32m/[m  
+[32m|[m[32m/[m[34m|[m   
+[32m|[m * [33mb40cd82[m Practice Gym Set Up (#3)
+* [34m|[m [33m51ec5c8[m enemy return bounce shot from pickleball machine complete
+* [34m|[m [33ma0b0013[m stage 2 opponent return ball basic
+* [34m|[m [33mdc72948[m enemy state tree (attack) partially implemented
+* [34m|[m [33m377d61e[m test StateTree TimeofDay
+* [34m|[m [33mbfb8871[m restore branching oopises
+* [34m|[m [33md360e38[m[33m ([m[1;31morigin/practice[m[33m)[m practice gym set-up done
+* [34m|[m [33mc48b53a[m AI move to goal post
+* [34m|[m [33maeed75b[m trace ball landing point
+* [34m|[m [33md3bdeff[m env light basic
+* [34m|[m [33m0ec4ac7[m add player character wasd, bear, UI bugfix
+* [34m|[m [33m599985f[m ui functional pause/resume
+* [34m|[m [33m85e7d8c[m courts and practice init
+[34m|[m [34m|[m * [33mcf807f3[m[33m ([m[1;31morigin/MVP[m[33m)[m minor input fix
+[34m|[m [34m|[m * [33m3ae9d25[m julie and km
+[34m|[m [34m|[m * [33ma0a1ae0[m clean up UDP controller
+[34m|[m [34m|[m[34m/[m  
+[34m|[m[34m/[m[34m|[m   
+* [34m|[m [33m791909d[m mvp game logic + barebone pos/quat + hap/speaker/led
+* [34m|[m [33m67d01e4[m udp send works
+* [34m|[m [33m550c9bd[m ball and paddle interaction
+[34m|[m[34m/[m  
+* [33m3ea4068[m udp and rotation works
+* [33m47c8d80[m init
+* [33mb1a7c38[m Initial commit
