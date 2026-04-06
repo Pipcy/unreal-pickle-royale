@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 Content/Assets/smallTemple/Meshy_AI_JAPANESE_TEMPLE_0405163642_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Plugins/NuitrackPlugin_5.4/Content/Samples/Avatar/Models/Mannequin_UE5_Model/Meshes/SKM_Manny.uasset filter=lfs diff=lfs merge=lfs -text
