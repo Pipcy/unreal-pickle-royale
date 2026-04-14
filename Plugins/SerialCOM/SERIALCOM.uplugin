@@ -10,7 +10,7 @@
 	"DocsURL": "https://github.com/videofeedback/Unreal_Engine_SerialCOM_Plugin",
 	"MarketplaceURL": "",
 	"SupportURL": "https://discord.ramiroslab.com/",
-	"EngineVersion": "5.4.0",
+	"EngineVersion": "5.5.0",
 	"CanContainContent": true,
 	"IsBetaVersion": true,
 	"Installed": true,
