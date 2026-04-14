@@ -10,7 +10,7 @@
 	"DocsURL": "https://github.com/3DiVi/nuitrack-sdk/tree/master/doc",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/198d1e743284479481f7a31b4e8db528",
 	"SupportURL": "https://community.nuitrack.com/",
-	"EngineVersion": "5.4.0",
+	"EngineVersion": "5.5.0",
 	"CanContainContent": true,
 	"IsBetaVersion": true,
 	"Installed": true,
