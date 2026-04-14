@@ -7,10 +7,7 @@
 		{
 			"Name": "pickle3rdperson",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -26,12 +23,16 @@
 			"Enabled": true
 		},
 		{
+			"Name": "SERIALCOM",
+			"Enabled": true
+		},
+		{
 			"Name": "NuitrackPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/198d1e743284479481f7a31b4e8db528"
 		},
 		{
-			"Name": "SERIALCOM",
+			"Name": "Water",
 			"Enabled": true
 		}
 	]

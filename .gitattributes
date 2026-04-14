@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Content/Assets/house/Meshy_AI_Sakura_Teahouse_0406204608_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Content/Assets/shrine/Meshy_AI_Sakura_Lantern_Shrine_0406214505_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Meshy_AI_colomn_0408224026_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Meshy_AI_audience_section_0410050752_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Meshy_AI_Crowd_in_the_Ancient__0410043154_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Meshy_AI_Grand_Stone_Archway_0410041051_texture.uasset filter=lfs diff=lfs merge=lfs -text
+Content/Assets/smallTemple/Meshy_AI_JAPANESE_TEMPLE_0405163642_texture.uasset filter=lfs diff=lfs merge=lfs -text
