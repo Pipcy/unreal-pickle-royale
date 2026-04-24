@@ -46,5 +46,9 @@
 				"Win64"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"Mac",
+		"Windows"
 	]
 }
