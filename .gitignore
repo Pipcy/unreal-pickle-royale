@@ -77,7 +77,7 @@ DerivedDataCache/*
 Plugins/NuitrackPlugin_5.4/Content/Samples/Metahuman/Models/YuriGigaChad/*
 
 #font
-Content/UI/Fonts/*
+# Content/UI/Fonts/*
 
 
 
